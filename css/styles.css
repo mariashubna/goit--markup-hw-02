@@ -2,7 +2,7 @@
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
-  --success-color: ##31d0aa;
+  --success-color: #31d0aa;
   --text-color: #434455;
   --subtle-text-color: #8e8f99;
   --accent-color: #e7e9fc;
@@ -72,11 +72,12 @@ a {
   color: var(--dark-color);
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover, .header-menu-link:focus {
-    color: var(--pressed-state-color);
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--pressed-state-color);
 }
 .header-address {
-    font-style: normal;
+  font-style: normal;
 }
 .header-list {
 }
@@ -87,8 +88,9 @@ a {
   color: var(--text-color);
   letter-spacing: 0.02em;
 }
-.header-list-link:hover, .header-list-link:focus {
-    color: var(--pressed-state-color);
+.header-list-link:hover,
+.header-list-link:focus {
+  color: var(--pressed-state-color);
 }
 .hero {
   background-color: var(--dark-color);
@@ -126,14 +128,14 @@ a {
 .adventures-text {
 }
 .team {
-    background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 .team-title {
 }
 .team-list {
-    background-color: var(--white-color);
 }
 .team-item {
+  background-color: var(--white-color);
 }
 .team-img {
 }
