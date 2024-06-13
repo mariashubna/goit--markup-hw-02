@@ -1,0 +1,153 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: ##31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: rgba(46, 47, 66, 0.4);
+  --white-color: #fff;
+  --modal-background-color: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-color);
+  background-color: var(--white-color);
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-text {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+.logo {
+  color: var(--primary-brand-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.logo-span {
+  color: var(--dark-color);
+}
+.header-menu {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--dark-color);
+}
+.header-menu-link:hover, .header-menu-link:focus {
+    color: var(--pressed-state-color);
+}
+.header-address {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+  line-height: 1.5;
+  color: var(--dark-color);
+}
+.header-list-link:hover, .header-list-link:focus {
+    color: var(--pressed-state-color);
+}
+.hero {
+  background-color: var(--dark-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+}
+.hero-button {
+  background-color: var(--primary-brand-color);
+  color: var(--white-color);
+  line-height: 1.5;
+  font-weight: 500;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+}
+.adventures {
+}
+.adventures-title {
+}
+.adventures-list {
+}
+.adventures-item {
+}
+.adventures-subtitle {
+}
+.section-subtitle {
+}
+.adventures-text {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+}
+.team-text {
+}
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+}
+.portfolio-text {
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.footer-text {
+  color: var(--light-color);
+}
+.footer-logo-span {
+  color: var(--light-color);
+  line-height: 1.5;
+}
